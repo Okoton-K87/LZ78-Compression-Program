@@ -44,10 +44,10 @@ USAGE
    ./encode1 [-vh] [-i input] [-o output]
 
 OPTIONS
-   -v          Display compression statistics
-   -i input    Specify input to compress (stdin by default)
-   -o output   Specify output of compressed input (stdout by default)
-   -h          Display program help and usage
+   1. -v          Display compression statistics
+   2. -i input    Specify input to compress (stdin by default)
+   3. -o output   Specify output of compressed input (stdout by default)
+   4. -h          Display program help and usage
 
 
 ### `decode`
@@ -59,10 +59,10 @@ USAGE
    ./decode1 [-vh] [-i input] [-o output]
 
 OPTIONS
-   -v          Display decompression statistics
-   -i input    Specify input to decompress (stdin by default)
-   -o output   Specify output of decompressed input (stdout by default)
-   -h          Display program usage
+   1. -v          Display decompression statistics
+   2. -i input    Specify input to decompress (stdin by default)
+   3. -o output   Specify output of decompressed input (stdout by default)
+   4. -h          Display program usage
 
 
 
