@@ -1,4 +1,4 @@
-# Assignment 6 - LZ78 Compression Program
+# LZ78 Compression Program
 
 ## Description:
 This program provides LZ78 compression and decompression functionality. It includes the following components:
@@ -65,33 +65,6 @@ OPTIONS
    -h          Display program usage
 
 
-## Citation
-Ben Grant, trie.c (trie_node_create, trie_node_delete, trie_reset, trie_delete)
-Ben Grant, word.c (word_create, word_append_sym)
-Ben Grant, io.c (debug for read/write pairs, read_header - checking magic number and swapping Endianness)
-Ben Grant, io.c (debug for read_sym)
-Ben Grant, encode.c (fstat - protection bits, verbose output)
-Ben Grant, decode.c (verbose output)
-
-Varun, io.c (write_pair, read_pair - (1 << write_pair_buffer_index % 8), adding bitlen + 8)
-
-Ernani, io.c (read_pair - (pair_buffer[read_pair_buffer_index / 8] >> (read_pair_buffer_index % 8) & (uint8_t) 1))
-Ernani, io.c (flush_pair)
-
-Lev, io.c (flush_pair - (write_pair_buffer_index % 8 ? 1 : 0))
-
-Miles, encode.c (STDIN_FILENO and STDIN_FILENO)
-Miles, io.c (read_sym)
-
-Audery, trie.c (sudocode from group section)
-Audery, word.c (sudocode from group section)
-Audery, io.c (sudocode from group section)
-
-github, code comments, bv16.h
-
-https://www.geeksforgeeks.org/input-output-system-calls-c-create-open-close-read-write/
-
-https://www.computerhope.com/jargon/f/file-descriptor.htm - Ben Grant
 
 
 
